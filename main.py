@@ -1,0 +1,1 @@
+print('\n'.join(f'{x} = ' + (x%5 == 0)*'fizz' + (x%2 == 0)*'buzz' + (x%5 != 0 and x%2 != 0)*'none' for x in range(int(input('start: ')), int(input('end: '))+1))) #fizz: x/5, buzz: x/2
